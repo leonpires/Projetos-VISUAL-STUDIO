@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Formulario de cadastro</title>
+    </head>
+    <body>
+        <form name="signup" autocomplete="on" action="local que vai enviar o arquivo">
+           Nome: <input type="text" name="name /"><br>
+           Idade: <input type="number" name="age /" min="0"><br>
+           Senha: <input type="password" name="password /"><br>
+           <button type="submit">Enviar </button>
+        </form>
+
+        <form> 
+            <label>Text: </label><input type="text" /><br>
+            <labe>Button: </labe><input type="button" value="Enviar"><br>
+            <label>Email: </label><input type="email" /><br>
+            <label>Color: </label><input type="color" /><br>
+            <label>Date: </label><input type="date" /><br>
+            <label>checkbox: </label><input type="checkbox" /><input type="checkbox" /><br>
+            <label>radio: </label><input type="radio" name="aceita"/><input type="radio" name="aceita"/><br>
+            <label>file: </label><input type="file" /><br>
+            <label>search: </label><input type="search" /><br>
+        </form>
+
+        <form method="post">
+            <p>acompanhamento? </p>
+            <input type="checkbox" name="opcional[]" value="queijo"> +queijo<br>
+            <input type="checkbox" name="opcional[]" value="calabresa"> +calabresa<br>
+            <input type="checkbox" name="opcional[]" value="cebola"> +cebola<br>
+            <p>borda</p>
+            <input type="radio" name="borda" value="sim"> sim
+            <input type="radio" name="borda" value="não">não<br>
+           
+        </form>
+
+        <form onsubmit="" method="get">
+            <button type="button">Clicavel</button><br>
+            <button type="reset">limpar</button> <br>
+            <button type="submit">enviar o formulario</button> 
+        </form>
+
+        <form onsubmit="" method="get">
+            <label>Nome:</label> <input type="text" name="name"><br>
+            <label>Cargo: </label>
+            <select name="role">
+                <option value="">Selecionar o cargo</option>
+                <option value="gerente">Gerente</option>
+                <option value="presidente">presitende</option>
+            </select><br>
+            Assunto: <input type="text" name="subject"><br>
+            <label>Cargo: </label>
+            <select name="role" multiple>
+                <option value="">Selecionar o cargo</option>
+                <option value="gerente">Gerente</option>
+                <option value="presidente">presitende</option>
+             </select><br>
+        </form>
+
+        <form>
+            <label>Mensagem</label>
+            <textarea name="message"></textarea>
+            <button type="button">Clicavel</button><br> <!--<html>-->
+        </form>
+
+    </body>
+    <p> < html> < / html> </p>
+</html>
